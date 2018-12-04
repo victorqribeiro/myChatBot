@@ -1,0 +1,27 @@
+{
+  "name": "myChatBot",
+  "short_name": "myChatBot",
+  "description": "A simple JavaScript ChatBot",
+  "start_url": "index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FFF",
+  "theme_color": "#FFF",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "density": 1
+    }
+  ],
+  "permissions": {
+		"audio-capture" : {
+		  "description" : "Audio capture"
+		},
+		"speech-recognition" : {
+		  "description" : "Speech recognition"
+		}
+	},
+  "type": "privileged"
+}

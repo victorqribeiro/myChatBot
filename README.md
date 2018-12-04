@@ -31,3 +31,5 @@ function dealWithQuestion(question){
   return "I don't like "+ question + " very much!";
 }
 ```
+
+In this case, the parentesis means that you want to capture whatever comes after *what do you think about*. So, if the question is "what do you think about coconuts?" the answer would be "I don't like coconuts very much!".

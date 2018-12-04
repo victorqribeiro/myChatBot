@@ -4,6 +4,10 @@ A simple JavaScript chatbot using [Regular expression](https://en.wikipedia.org/
 
 A live version is hosted [here](https://victorribeiro.com/myChatBot)
 
+## Basic rules
+
+Right now there's only a few rules written. The bot can answer "what is your name", "how old are you", "what day is today" and "what day is tomorrow". But you can, of course, increment that.
+
 ## How to write rules
 
 I do recommend to take a look at regular expression and see how it works. But, let's pretend we are interested in knowing if the user are asking about our age (we being the chat bot). So, a questio like "How old are you?" you translate in the following regular expression:

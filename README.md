@@ -6,7 +6,7 @@ A live version is hosted [here](https://victorribeiro.com/myChatBot)
 
 ## Basic rules
 
-Right now there's only a few rules written. The bot can answer "what is your name", "how old are you", "what day is today" and "what day is tomorrow". But you can, of course, increment that.
+Right now there's only a few rules written. The bot can answer "what is your name", "where do you live", "what day is today" and "what day is tomorrow". But you can, of course, increment that.
 
 ## How to write rules
 

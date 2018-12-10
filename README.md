@@ -40,6 +40,6 @@ In this case, the parentesis means that you want to capture whatever comes after
 
 ## Aplications
 
-I have used this very own chatbot to control a raspberry pi. In this case, I have exposed the commands of the raspberry pi over the internet using a flask server, and then usign the chatbot, acessing this commands via JavaScript. You can take a look at the link below:
+I have used this very own chatbot to control a raspberry pi. In this case, I have exposed the commands of the raspberry pi over the internet using a flask server, and then usign the chatbot, acessing the commands via JavaScript. You can take a look at the link below:
 
 [https://github.com/victorqribeiro/raspberryCar](https://github.com/victorqribeiro/raspberryCar)

@@ -6,7 +6,7 @@ A live version is hosted [here](https://victorribeiro.com/myChatBot)
 
 ## Basic rules
 
-Right now there's only a few rules written. The bot can answer "what is your name", "how old are you", "what day is today" and "what day is tomorrow". But you can, of course, increment that.
+Right now there's only a few rules written. The bot can answer "what is your name", "where do you live", "what day is today" and "what day is tomorrow". But you can, of course, increment that.
 
 ## How to write rules
 
@@ -39,3 +39,9 @@ function dealWithQuestion(question){
 ```
 
 In this case, the parentesis means that you want to capture whatever comes after *what do you think about*. So, if the question is "what do you think about coconuts?" the answer would be "I don't like coconuts very much!".
+
+## Aplications
+
+I have used this very own chatbot to control a raspberry pi. In this case, I have exposed the commands of the raspberry pi over the internet using a flask server, and then usign the chatbot, acessing the commands via JavaScript. You can take a look at the link below:
+
+[https://github.com/victorqribeiro/raspberryCar](https://github.com/victorqribeiro/raspberryCar)

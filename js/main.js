@@ -18,8 +18,8 @@ const getData = val => {
 
 const rules = [
 	{rule: /.*what.*day.*(today|tomorrow)/, response: 1, action: getData },
-	{rule: /.*what.*your.*name.*/, response: "I don't have a name"},
-	{rule: /.*where.*do.*you.*live.*/, response: "I live on the internet"},
+	{rule: /.*what.*your.*name.*/, response: ["I don't have a name","I haven't being named yet"]},
+	{rule: /.*where.*do.*you.*live.*/, response: ["I live on the internet"]},
 ];
 
 const analyse = msg => {
@@ -30,7 +30,7 @@ const analyse = msg => {
 		let r = rules[i];
 		matches = r.rule.exec(msg);
 		if( matches ){
-			response = r.response === 1 ? r.action(matches[1]) : r.response ;
+			response = r.response === 1 ? r.action(matches[1]) : r.response[Math.floor(Math.random()*r.response.length)] ;
 			break;
 		}
 	}

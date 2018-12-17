@@ -23,8 +23,10 @@ Very simple, eh?!
 So, the bot is really just a collection of rules, that are defined as objects:
 
 ```javascript
-{rule: /.*how.*old.*you.*/, response: "I don't know how old I am"}
+{rule: /.*how.*old.*you.*/, response: ["I don't know how old I am", "I'm pretty young, that's for sure"]}
 ```
+
+As you can see, the response is an array of answers that will be choosen randomly, so the bot seems more interesting.
 
 you can get fancy, but setting the response to the number 1 and writting a function to deal with the respose:
 
